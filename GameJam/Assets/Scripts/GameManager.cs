@@ -22,7 +22,7 @@ public class GameManager : MonoBehaviour
     void Update()
     {
         timer = Time.deltaTime;
-        Debug.Log("Seconds: " + timer%60);
+        //Debug.Log("Seconds: " + timer%60);
         if(timer >= 3)
         {
             GameOver();

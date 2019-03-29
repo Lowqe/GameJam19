@@ -11,6 +11,11 @@ public class PowerUp : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             Player player = other.GetComponent<Player>();
+            if(player == null)
+            {
+                Debug.Log("Other:  " + other);
+                Debug.Log("Player: " + player);
+            }
             player.AddCake();
             Pickup();
         }
@@ -18,7 +23,8 @@ public class PowerUp : MonoBehaviour
 
     void Pickup()
     {
-        Destroy(this.gameObject);
         Debug.Log("Power up picked up");
+        Destroy(this.gameObject);
+        
     }
 }

@@ -33,6 +33,11 @@ public class Player : MonoBehaviour
         {
             anim.SetBool("isMoving", true);
         }
+
+        if (cakeCount > 0 && Input.GetKeyDown(KeyCode.Space))
+        {
+            speedBoost();
+        }
     }
 
     private void FixedUpdate()
@@ -48,4 +53,12 @@ public class Player : MonoBehaviour
     {
         return cakeCount;
     }
+
+    // if cakecount <0 and keydown x speed upp i x antal sekunder
+    private void speedBoost()
+    {
+        speed = 14f;
+    }
 }
+
+

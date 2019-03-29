@@ -288,7 +288,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 5.12, y: 5.12}
+    oldSize: {x: 10.82, y: 10.8}
     newSize: {x: 5.12, y: 5.12}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -307,6 +307,7 @@ GameObject:
   m_Component:
   - component: {fileID: 206715120}
   - component: {fileID: 206715121}
+  - component: {fileID: 206715122}
   m_Layer: 0
   m_Name: DirtDown (13)
   m_TagString: Untagged
@@ -376,6 +377,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &206715122
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 206715119}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.032218575, y: 0.076330185}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 10.82, y: 10.8}
+    newSize: {x: 5.12, y: 5.12}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 6.1167746, y: 5.4569187}
+  m_EdgeRadius: 0
 --- !u!1 &229274962
 GameObject:
   m_ObjectHideFlags: 0
@@ -423,6 +450,7 @@ GameObject:
   m_Component:
   - component: {fileID: 273300642}
   - component: {fileID: 273300643}
+  - component: {fileID: 273300644}
   m_Layer: 0
   m_Name: DirtDown (4)
   m_TagString: Untagged
@@ -492,6 +520,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &273300644
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 273300641}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.16051054, y: -0.08026099}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 10.82, y: 10.8}
+    newSize: {x: 5.12, y: 5.12}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 5.843955, y: 5.6634383}
+  m_EdgeRadius: 0
 --- !u!1 &291053220
 GameObject:
   m_ObjectHideFlags: 0
@@ -660,6 +714,7 @@ GameObject:
   m_Component:
   - component: {fileID: 397241218}
   - component: {fileID: 397241219}
+  - component: {fileID: 397241220}
   m_Layer: 0
   m_Name: DirtDown (12)
   m_TagString: Untagged
@@ -729,6 +784,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &397241220
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 397241217}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.031217456, y: 0.11210275}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 10.82, y: 10.8}
+    newSize: {x: 5.12, y: 5.12}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 5.6378174, y: 5.344526}
+  m_EdgeRadius: 0
 --- !u!1 &422167627
 GameObject:
   m_ObjectHideFlags: 0
@@ -739,6 +820,7 @@ GameObject:
   m_Component:
   - component: {fileID: 422167628}
   - component: {fileID: 422167629}
+  - component: {fileID: 422167630}
   m_Layer: 0
   m_Name: DirtDown (12)
   m_TagString: Untagged
@@ -808,6 +890,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &422167630
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 422167627}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.034090877, y: -0.16322088}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 10.82, y: 10.8}
+    newSize: {x: 5.12, y: 5.12}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 5.4336414, y: 5.413744}
+  m_EdgeRadius: 0
 --- !u!1 &467845665
 GameObject:
   m_ObjectHideFlags: 0
@@ -1295,6 +1403,7 @@ GameObject:
   m_Component:
   - component: {fileID: 761568538}
   - component: {fileID: 761568539}
+  - component: {fileID: 761568540}
   m_Layer: 0
   m_Name: DirtDown (13)
   m_TagString: Untagged
@@ -1364,6 +1473,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &761568540
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 761568537}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.032209277, y: -0.038161993}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 10.82, y: 10.8}
+    newSize: {x: 5.12, y: 5.12}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 5.859066, y: 5.5332303}
+  m_EdgeRadius: 0
 --- !u!1 &827222961
 GameObject:
   m_ObjectHideFlags: 0
@@ -1374,6 +1509,7 @@ GameObject:
   m_Component:
   - component: {fileID: 827222963}
   - component: {fileID: 827222962}
+  - component: {fileID: 827222964}
   m_Layer: 0
   m_Name: DirtDown (5)
   m_TagString: Untagged
@@ -1443,6 +1579,32 @@ Transform:
   m_Father: {fileID: 1912346709}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &827222964
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 827222961}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.06243646, y: -0.07473183}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 10.82, y: 10.8}
+    newSize: {x: 5.12, y: 5.12}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 5.825116, y: 5.568719}
+  m_EdgeRadius: 0
 --- !u!1 &906815743 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6780715628924601032, guid: 60ab212c5342662449e2cb2d8d1c165d,
@@ -1556,6 +1718,7 @@ GameObject:
   m_Component:
   - component: {fileID: 952046935}
   - component: {fileID: 952046936}
+  - component: {fileID: 952046937}
   m_Layer: 0
   m_Name: DirtDown (6)
   m_TagString: Untagged
@@ -1625,6 +1788,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &952046937
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 952046934}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.032214165, y: -0.15266323}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 10.82, y: 10.8}
+    newSize: {x: 5.12, y: 5.12}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 5.601345, y: 5.4569016}
+  m_EdgeRadius: 0
 --- !u!1 &1019409857
 GameObject:
   m_ObjectHideFlags: 0
@@ -1635,6 +1824,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1019409858}
   - component: {fileID: 1019409859}
+  - component: {fileID: 1019409860}
   m_Layer: 0
   m_Name: DirtDown (10)
   m_TagString: Untagged
@@ -1704,6 +1894,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1019409860
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1019409857}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.11804497, y: -0.00000333786}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 10.82, y: 10.8}
+    newSize: {x: 5.12, y: 5.12}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 5.7439976, y: 5.6059475}
+  m_EdgeRadius: 0
 --- !u!1 &1035764569
 GameObject:
   m_ObjectHideFlags: 0
@@ -1714,6 +1930,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1035764571}
   - component: {fileID: 1035764570}
+  - component: {fileID: 1035764572}
   m_Layer: 0
   m_Name: DirtDown (6)
   m_TagString: Untagged
@@ -1783,6 +2000,32 @@ Transform:
   m_Father: {fileID: 1912346709}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1035764572
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1035764569}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.03221357, y: 0.038161755}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 10.82, y: 10.8}
+    newSize: {x: 5.12, y: 5.12}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 5.601346, y: 5.2279024}
+  m_EdgeRadius: 0
 --- !u!1 &1094765742
 GameObject:
   m_ObjectHideFlags: 0
@@ -1872,6 +2115,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1180427991}
   - component: {fileID: 1180427992}
+  - component: {fileID: 1180427993}
   m_Layer: 0
   m_Name: DirtDown (5)
   m_TagString: Untagged
@@ -1941,6 +2185,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1180427993
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1180427990}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.042451978, y: -0.101622105}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 10.82, y: 10.8}
+    newSize: {x: 5.12, y: 5.12}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 5.8109465, y: 5.7190084}
+  m_EdgeRadius: 0
 --- !u!1 &1212407329
 GameObject:
   m_ObjectHideFlags: 0
@@ -2947,6 +3217,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1576880955}
   - component: {fileID: 1576880956}
+  - component: {fileID: 1576880957}
   m_Layer: 0
   m_Name: DirtDown (10)
   m_TagString: Untagged
@@ -3016,6 +3287,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1576880957
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1576880954}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.20657933, y: -0.2360897}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 10.82, y: 10.8}
+    newSize: {x: 5.12, y: 5.12}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 5.566929, y: 5.605958}
+  m_EdgeRadius: 0
 --- !u!1 &1727225081
 GameObject:
   m_ObjectHideFlags: 0
@@ -3337,6 +3634,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1960887695}
   - component: {fileID: 1960887696}
+  - component: {fileID: 1960887697}
   m_Layer: 0
   m_Name: DirtDown (11)
   m_TagString: Untagged
@@ -3406,6 +3704,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1960887697
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1960887694}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.04012549, y: 0.04012513}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 10.82, y: 10.8}
+    newSize: {x: 5.12, y: 5.12}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 5.603197, y: 5.7437034}
+  m_EdgeRadius: 0
 --- !u!1 &1980624747
 GameObject:
   m_ObjectHideFlags: 0
@@ -3416,6 +3740,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1980624748}
   - component: {fileID: 1980624749}
+  - component: {fileID: 1980624750}
   m_Layer: 0
   m_Name: DirtDown
   m_TagString: Untagged
@@ -3473,8 +3798,8 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
-  m_Sprite: {fileID: 21300000, guid: 884df65beb45634438224aa27ac55179, type: 3}
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300000, guid: a13ef84e39dd81246a771b197721d38e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3485,6 +3810,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1980624750
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1980624747}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.12038326, y: -0.040127277}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 10.82, y: 10.8}
+    newSize: {x: 5.12, y: 5.12}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 5.6031837, y: 5.743702}
+  m_EdgeRadius: 0
 --- !u!1 &1983747685
 GameObject:
   m_ObjectHideFlags: 0
@@ -3495,6 +3846,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1983747687}
   - component: {fileID: 1983747686}
+  - component: {fileID: 1983747688}
   m_Layer: 0
   m_Name: DirtDown
   m_TagString: Untagged
@@ -3564,6 +3916,32 @@ Transform:
   m_Father: {fileID: 1912346709}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1983747688
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1983747685}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.14755511, y: 0.23609543}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 10.82, y: 10.8}
+    newSize: {x: 5.12, y: 5.12}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 5.448872, y: 5.6059475}
+  m_EdgeRadius: 0
 --- !u!1 &2012191207
 GameObject:
   m_ObjectHideFlags: 0
@@ -3903,17 +4281,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -86.05601
       objectReference: {fileID: 0}
+    - target: {fileID: 6780715627668720449, guid: 60ab212c5342662449e2cb2d8d1c165d,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6780715628887799901, guid: 60ab212c5342662449e2cb2d8d1c165d,
         type: 3}
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6780715629499174167, guid: 60ab212c5342662449e2cb2d8d1c165d,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6780715627668720449, guid: 60ab212c5342662449e2cb2d8d1c165d,
         type: 3}
       propertyPath: m_Enabled
       value: 0

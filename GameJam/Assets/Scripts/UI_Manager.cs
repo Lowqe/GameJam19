@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class UI_Manager : MonoBehaviour
 {
@@ -12,7 +13,7 @@ public class UI_Manager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetButton("StartButton"))
+        if (Input.GetButtonDown("StartButton"))
         {
             if (GameIsPaused)
             {
@@ -43,7 +44,10 @@ public class UI_Manager : MonoBehaviour
 
     public void MainMenu()
     {
+        Time.timeScale = 1f;
+        SceneManager.LoadScene("Main Menu");
 
+        
     }
 
     

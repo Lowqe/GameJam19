@@ -1,14 +1,22 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.SceneManagement;
+using UnityEngine.Events;
+using UnityEngine.UI;
 
-public class UI_Manager : MonoBehaviour
+public class UI_Manager : MonoBehaviour, IPointerEnterHandler
 {
 
     public static bool GameIsPaused = false;
-    public GameObject PauseMenuUI; 
+    public GameObject PauseMenuUI;
+    public UnityEngine.UI.Button resumeButton;
 
+    private void Start()
+    {
+        resumeButton.OnSelect(null);
+    }
 
     // Update is called once per frame
     void Update()
@@ -22,8 +30,20 @@ public class UI_Manager : MonoBehaviour
             else
             {
                 Pause();
+                resumeButton.OnSelect(null);
             }
         }
+
+      
+
+    }
+
+    public void OnPointerEnter(PointerEventData eventData)
+    {
+        resumeButton.OnSelect(null);
+        Debug.Log("y u no work");
+      
+
     }
 
 
@@ -50,5 +70,6 @@ public class UI_Manager : MonoBehaviour
         
     }
 
-    
+  
 }
+
